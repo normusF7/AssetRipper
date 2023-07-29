@@ -53,7 +53,7 @@ namespace AssetRipper.Export.UnityProjects.Configuration
 			MeshExportFormat = MeshExportFormat.Native;
 			ScriptExportMode = ScriptExportMode.Hybrid;
 			ScriptLanguageVersion = ScriptLanguageVersion.AutoSafe;
-			ShaderExportMode = ShaderExportMode.Dummy;
+			ShaderExportMode = ShaderExportMode.Yaml;
 			SpriteExportMode = SpriteExportMode.Yaml;
 			TerrainExportMode = TerrainExportMode.Yaml;
 			TextExportMode = TextExportMode.Parse;

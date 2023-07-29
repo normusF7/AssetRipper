@@ -92,7 +92,7 @@ namespace AssetRipper.Import.Configuration
 			DefaultVersion = default;
 			ExportRootPath = ExecutingDirectory.Combine("Ripped");
 			ExportDependencies = false;
-			BundledAssetsExportMode = BundledAssetsExportMode.DirectExport;
+			BundledAssetsExportMode = BundledAssetsExportMode.GroupByBundleName;
 			Filter = DefaultFilter;
 		}
 
